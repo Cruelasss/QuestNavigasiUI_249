@@ -1,0 +1,10 @@
+package com.example.questnavigasiui_249
+
+import androidx.compose.material3.Scaffold
+import androidx.compose.runtime.Composable
+
+enum class  Navigasi{
+    Formulir,
+    Detail
+}
+
