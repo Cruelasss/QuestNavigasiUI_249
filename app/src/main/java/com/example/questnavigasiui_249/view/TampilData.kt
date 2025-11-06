@@ -55,3 +55,7 @@ fun TampilData(
             ) {
                 items.forEach { item ->
                     Column {
+                        Text(
+                            text = item.first.uppercase(),
+                            fontSize = 16.sp
+                        )
