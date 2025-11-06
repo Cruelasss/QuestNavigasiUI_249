@@ -38,3 +38,7 @@ fun TampilData(
                         color = Color.White
                     )
                 },
+                colors = TopAppBarDefaults.mediumTopAppBarColors(
+                    containerColor = colorResource(id = R.color.teal_700)
+                )
+            )
