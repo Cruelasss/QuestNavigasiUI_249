@@ -33,3 +33,8 @@ fun TampilData(
         topBar = {
             TopAppBar(
                 title = {
+                    Text(
+                        text = stringResource(id = R.string.tampil),
+                        color = Color.White
+                    )
+                },
